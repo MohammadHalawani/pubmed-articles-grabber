@@ -17,7 +17,7 @@ Grabs and downloads full-text versions of PubMed records in different formats.
     
     # Usage::        
     ```
-    from pubMedArticleGrabber import PubMedArticleGrabber  
-    wanted = PubMedArticleGrabber('wanted', 'xxx@xxx.xx')  
+    from pubMedArticleGrabber import PubMedArticleGrabber    
+    wanted = PubMedArticleGrabber('wanted', 'xxx@xxx.xx')      
     wanted.grab()  
-    ```
+    ```
