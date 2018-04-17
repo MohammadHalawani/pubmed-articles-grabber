@@ -11,13 +11,13 @@ The main functions to grab the articles  are: `grab()`, `grabViaCrossref()` and
     
 ###     Recommended steps::  
 1. Put the list of PMIDs you want to "grab" in the 'wanted.csv' file in a row by row basis.    
-2. (optional) Put your click-through-token in the 'clickThroughToken.txt' file. This step is optional but some publishers require having a click-through-token.    
+2. (optional) Put your click-through-token in the 'clickThroughToken.txt' file. This step is optional but some publishers require having a click-through-token.    wanted
 3. Create an object of this class and use its main grabber functions. Below is an example of its use (also can be found in 'main.py').    
-4. Do not forget to change the email address from "xxx@xxx.xx" to yours.    
+4. Do not forget to change the email address from "example@example.domain" to yours.    
     
 ##  Usage::        
 ```
 from pubMedArticleGrabber import PubMedArticleGrabber    
-wanted = PubMedArticleGrabber('wanted', 'xxx@xxx.xx')      
+wanted = PubMedArticleGrabber('wanted', 'example@example.domain')
 wanted.grab()  
 ```
