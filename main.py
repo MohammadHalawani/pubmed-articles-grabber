@@ -1,4 +1,4 @@
 from pubMedArticleGrabber import PubMedArticleGrabber
 
-wanted = PubMedArticleGrabber('wanted', 'xxx@xxx.xx')
+wanted = PubMedArticleGrabber('wanted', 'example@example.domain')
 wanted.grab()
