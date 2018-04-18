@@ -60,7 +60,6 @@ class PubMedArticleGrabber(object):
 
     def grabViaCrossref(self):
         """Grabs articles via Crossref, after converting PMIDs to DOIs through Entrez"""
-        self.pmids
 
         # converting pmids to dois to use them for downloading full text articles
         self.pmidTodoi(self.pmids,'dois')
